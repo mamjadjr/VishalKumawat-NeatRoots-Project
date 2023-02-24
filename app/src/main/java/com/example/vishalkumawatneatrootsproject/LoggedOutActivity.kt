@@ -11,6 +11,7 @@ class LoggedOutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(loggedOutBinding.root)
+        title = "Welcome Screen"
 
 
     }
